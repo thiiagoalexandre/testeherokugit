@@ -1,7 +1,7 @@
 trigger:
   - "*"
 pool:
-  vmImage: debian-latest
+  vmImage: ubuntu-latest
   demands:
     - npm
 steps:
